@@ -220,12 +220,14 @@
                         <div class="row justify-content-end">
                             <div class="content m-2">
                                 <h6>S'incrire à la newsletter :</h6>
-                                <div class="input-group w-100">
-                                    <input type="email" class="form-control" placeholder="Adresse Email">
-                                    <span class="input-group-btn">
-                                        <button class="btn ml-1" type="submit">Envoyer</button>
-                                    </span>
-                                </div>
+                                <form name="newsletter" method="POST" data-netlify="true">
+                                    <div class="input-group w-100">
+                                        <input type="email" class="form-control" placeholder="Adresse Email">
+                                        <span class="input-group-btn">
+                                            <button class="btn ml-1" type="submit">Envoyer</button>
+                                        </span>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
