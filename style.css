@@ -130,7 +130,9 @@ main h3 {
         margin: auto;
     }
 
+
 }
+
 
 .figure img {
     max-width: 800px;
@@ -139,3 +141,15 @@ main h3 {
     object-fit: contain;
 }
 
+
+.hover-img img:hover {
+    opacity: 0.6;
+    transition: ease-in-out 0.3s;
+    box-shadow: rgb(0, 0, 0) 3px 3px 8px;
+}
+
+
+.manga h2 {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
