@@ -93,3 +93,49 @@ main h3 {
 .content {
     font-family: 'roboto', sans-serif;
 }
+
+.blog section h4, .blog section .figure-caption {
+    font-family: 'Lora', serif;
+}
+
+.blog section p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.vdivider {
+    height: 15em;
+    border-left: 2px solid #ea824b;
+}
+
+@media (max-width: 995px) {
+    .vdivider {
+        width: 15em;
+        height: 0px;
+        border-top: 2px solid #ea824b;
+        margin: auto;
+    }
+
+}
+
+.vdivider2 {
+    height: 15em;
+    border-right: 2px solid #ea824b;
+}
+
+@media (max-width: 995px) {
+    .vdivider2 {
+        width: 15em;
+        height: 0px;
+        border-top: 2px solid #ea824b;
+        margin: auto;
+    }
+
+}
+
+.figure img {
+    max-width: 800px;
+    width: 100%;
+    height: 30rem;
+    object-fit: contain;
+}
+
