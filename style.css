@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
 }
 
 .nav-link {
@@ -153,3 +154,56 @@ main h3 {
     font-family: 'Lora', serif;
     font-weight: bold;
 }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.win h5 {
+    font-family: 'Lora', serif;
+}
+
+.win {
+    font-family: 'Roboto', sans-serif;
+}
+
+.win .img-fluid {
+    min-width: 30px;
+}
+
+.win b {
+    color: #ea824b;
+}
+
+.win li {
+    list-style-type: none;
+    margin-top: 1.5em;
+}
+
+
+
+.field {
+    border-bottom: 1px solid rgb(73, 73, 73);
+    font-family: 'roboto' sans-serif;
+}
+
+.contactf h4 {
+    font-family: 'Lora';
+    line-height: 1.5em;
+}
+
+
+textarea {
+    resize: none;
+}
+
+.btn-outline-dark {
+    border-color: #ea824b;
+    color: #ea824b;
+}
+
+.contactf {
+    margin-top: 10.05em;
+}
+
