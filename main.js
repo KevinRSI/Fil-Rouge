@@ -7,6 +7,13 @@ $this.attr('src', "");
 $this.attr('src', tempSrc);
 });
 
-    
+
 });
 
+
+$(function () {
+    var $target = $(document.location.hash);
+    if ($target.length !== 0) {
+        $target.collapse('show');
+    }
+});
